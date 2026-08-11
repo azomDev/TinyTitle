@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/raw/
+*.gguf
+
+# model artifacts: ship the int8 .ttm1, not checkpoints or reference ggufs
+models/**
+!models/tt-v1/
+!models/tt-v1/model.ttm1
+models/supra-50m/.cache/
+models/supra-50m/*.gguf
+*.gguf.*
+!**/.gitkeep
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# built runtime binaries
+runtime/title-v1
+runtime/title-v1-asan
+runtime/title-v1-musl

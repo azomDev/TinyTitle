@@ -1,0 +1,8 @@
+How does AI work?
+Why does my WiFi keeps disconnecting the whole time??
+How to make a discord server?
+Can you explain the difference between TCP and UDP?
+I need help debugging this python script that crashes on import
+What's the best way to learn French quickly?
+My docker container won't start, port 8080 is already in use
+Explain quantum computing like I'm five
