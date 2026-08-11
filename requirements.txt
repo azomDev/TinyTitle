@@ -1,0 +1,9 @@
+# python deps for training + the reference tools
+# the C runtime itself has zero python dependencies
+torch
+tokenizers
+numpy
+
+# optional: only needed for tools/compare.py (supra 50M reference model)
+llama-cpp-python
+huggingface_hub

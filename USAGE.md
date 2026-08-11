@@ -5,10 +5,15 @@ reference for the commands in the readme.
 
 ## setup
 
-- python 3.14+ with a virtualenv: torch, tokenizers, numpy (for training and the
-  python reference).
+create the virtualenv and install the python deps (needed for training and
+the python reference tools; the C runtime itself has zero python deps):
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+```
+
 - cc / gcc (optional musl-gcc for a static build).
-- llama_cpp python bindings only needed for the supra comparison (see below).
 
 ## build the runtime
 
