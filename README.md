@@ -120,7 +120,7 @@ so even at its smallest, the 50M model needs roughly 25x the ram of TinyTitle.
 
 ## license and provenance
 
-apache-2.0. this repo is almost entirely LLM-generated (as in, an AI wrote nearly all the code, the training scripts, and this readme).
+MIT (see [LICENSE](LICENSE)). this repo is almost entirely LLM-generated (as in, an AI wrote nearly all the code, the training scripts, and this readme).
 
 training data comes from three public huggingface datasets, assembled by tools/build_dataset.py:
 
@@ -129,5 +129,4 @@ training data comes from three public huggingface datasets, assembled by tools/b
 - [Michionlion/chat-titles-english](https://huggingface.co/datasets/Michionlion/chat-titles-english) (cc-by-4.0)
 
 the compare section uses the SupraLabs 50M title model
-([supra-title-50M-pre-gguf](https://huggingface.co/SupraLabs/supra-title-50M-pre-gguf),
-apache-2.0) as a reference only. it is not part of TinyTitle.
+([supra-title-50M-pre-gguf](https://huggingface.co/SupraLabs/supra-title-50M-pre-gguf), apache-2.0) as a reference only. it is not part of TinyTitle.
